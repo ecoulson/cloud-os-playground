@@ -1,0 +1,17 @@
+{
+    "name": "cloud-os-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc --project tsconfig.build.json",
+        "clean": "rm -rf ./lib",
+        "start": "node dist/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cloud-os": "file:../cloud-os",
+        "tsyringe": "^4.7.0"
+    }
+}
