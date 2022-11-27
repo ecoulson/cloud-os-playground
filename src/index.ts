@@ -1,5 +1,4 @@
 import { CloudOSClient, Drive, AWSProvider, File } from 'cloud-os';
-import { ProviderType } from 'cloud-os/lib/models/providers/provider-type';
 import { Readable } from 'stream';
 
 const cloudOSClient = new CloudOSClient();
