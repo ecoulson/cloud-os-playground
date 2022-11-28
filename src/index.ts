@@ -2,7 +2,7 @@ import { CloudOSClient, Drive, AWSProvider, File } from 'cloud-os';
 import { Readable } from 'stream';
 
 const cloudOSClient = new CloudOSClient();
-const awsProvider = new AWSProvider('test');
+const awsProvider = new AWSProvider();
 const client = cloudOSClient.createObjectFileSystemClient(awsProvider);
 
 async function main() {
